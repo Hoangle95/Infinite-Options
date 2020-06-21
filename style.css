@@ -1,0 +1,149 @@
+h5 {
+  text-align: center;
+}
+h6 {
+    text-align: center;
+  }
+h7 {
+    text-align: center;
+    font-weight : bold; 
+  }
+.div1 {
+    width: 230px;
+    height: 248px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+.div2 {
+    width: 230px;
+    height: 415px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  .div9 {
+    width: 603px;
+    height: 322px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  .div10{
+    width: 603px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .div11 {
+    width: 603px;
+    height: 129px;
+    border: 1px solid black;
+  }
+.div12 {
+    width: 230px;
+    height: 36px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+
+  .atn {
+    position: absolute;
+    top: 35px;
+    right: -86px;
+  }
+  .btn {
+    position: absolute;
+    top: 112px;
+    right: -98px;
+  }
+  .ctn {
+    position: absolute;
+    top: 200px;
+    right: -86px;
+  }
+  .dtn {
+    position: absolute;
+    top: 288px;
+    right: -86px;
+  }
+  .etn {
+    position: absolute;
+    top: 370px;
+    right: -86px;
+  }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+/* the round slider move */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+/* move the slide */
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders box outside */
+.slider.round {
+  border-radius: 34px;
+}
+
+/* Rounded slide box inside */
+.slider.round:before {
+  border-radius: 50%;
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: white;
+}
+.no-outline:focus {
+  outline: none;
+}
